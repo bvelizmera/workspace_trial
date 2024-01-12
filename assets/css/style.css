@@ -1,0 +1,162 @@
+/* Google fonts imports */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Raleway:wght@100&display=swap');
+
+
+/* Asterisk wildcard selector to override default styles added by the browser */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+/* Generic */
+
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  /* Generic project styles */
+  color: rgb(49, 47, 47);
+  font-family: 'Raleway', sans-serif;
+}
+
+
+h1,
+h2,
+h3 {
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: rgb(32, 30, 30);
+}
+
+
+h1 {
+  margin: 20px 0;
+  margin-bottom: 10px;
+  letter-spacing: 5px;
+  text-align: left;
+}
+
+
+
+
+
+/* Colors */
+
+
+/* Header */
+
+li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+/* carousel */
+
+
+
+
+.carousel {
+  width: 50%;
+  /* Adjust the width */
+  margin: 20px auto;
+  /* Center the carousel on the page */
+}
+
+
+.carousel-inner {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.carousel-item {
+  width: 100%;
+}
+
+
+.carousel-item img {
+  width: 100%;
+  height: auto;
+}
+
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%;
+}
+
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #000;
+  /* Set control button color */
+}
+
+
+
+
+
+/* Main */
+
+
+
+
+/*Gallery formatting*/
+
+
+.img-fluid {
+  padding: 10px;
+  margin: 10px;
+}
+
+
+/*Contact*/
+
+.checkboxes {
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Footer */
+
+
+footer {
+  min-height: 120px;
+  margin: 0;
+  color: #5C5552;
+  padding: 12px;
+}
+
+
+.social-links {
+  padding-bottom: 15px;
+}
+
+
+.social-links li a i {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  font-size: 13px;
+  line-height: 7px;
+  padding: 12px 0;
+  text-align: center;
+  color: #5C5552;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+}
+
+
+.social-links li a i:hover {
+  background: #e84610;
+}
